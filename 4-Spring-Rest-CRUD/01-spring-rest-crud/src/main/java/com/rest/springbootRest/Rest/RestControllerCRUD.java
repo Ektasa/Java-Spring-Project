@@ -29,6 +29,10 @@ public class RestControllerCRUD {
         public List<Student> getStudents() {
            return students;
         }
+         @GetMapping("/allstudents")
+        public List<Student> getStudents() {
+           return students;
+        }
         @GetMapping("/students/{StudentId}")
                 public Student getstudentsindex(@PathVariable int StudentId)
         {

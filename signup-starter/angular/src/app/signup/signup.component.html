@@ -1,0 +1,15 @@
+<div class="signup-container">
+  <h2>Create your account</h2>
+  <form (ngSubmit)="signup()" [formGroup]="signupForm">
+    <input formControlName="email" placeholder="Email" type="email" />
+    <input formControlName="password" placeholder="Password" type="password" />
+    <button type="submit">Sign Up</button>
+  </form>
+  <div class="divider">OR</div>
+  <button class="google-btn" (click)="continueWithGoogle()">
+    <img src="assets/google.png" alt="Google" /> Continue with Google
+  </button>
+  <button class="outlook-btn" (click)="continueWithOutlook()">
+    <img src="assets/outlook.png" alt="Outlook" /> Continue with Outlook
+  </button>
+</div>

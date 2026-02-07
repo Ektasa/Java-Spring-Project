@@ -1,0 +1,12 @@
+{
+  "name": "signup-frontend",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@angular/common": "^16.0.0",
+    "@angular/core": "^16.0.0",
+    "@angular/forms": "^16.0.0",
+    "rxjs": "^7.5.0"
+  },
+  "devDependencies": {}
+}
